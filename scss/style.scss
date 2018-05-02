@@ -1,0 +1,280 @@
+$tardidsblue: #003B6F;
+$white: #fff;
+$black: #000;
+$font-stack: Helvetica;
+$font-stack1: Cursive;
+$yellow: #F8FF75;
+$tq:	#4B4747;
+$jj:#D2B48C;
+$font-size1:50px;
+$font-size2:25px;
+$font-size3:30px;
+$font-size4:15px;
+$font-size5:10px;
+$font-size6:20px;
+$font-size7:75px;
+$img1:80px;
+$img2:125px;
+$img3:150px;
+$facebook:#3B5998;
+$twitter:#55ACEE;
+$soundcloud:#EC612F;
+// "desktop" this is the stettings for desktop when some views on any desktop.
+@media(min-width: 776px) and (max-width:1000px) {
+}
+body{
+  background-color: $jj;
+}
+// "body" this is being use for background-color of "tardidsblue"
+.fun{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  color: $tq;
+  font-size: $font-size1;
+  font-family: $font-stack1;
+}
+// "fun " is the id i am use for my h1. The felx is being use so i can center tbe header color is white for the text i did showder and made that black and the font i am using is helvetica.
+.lead{
+ margin: auto;
+  color: $tq;
+  font-size: $font-size2;
+  display: flex;
+  justify-content: center;
+  font-family: $font-stack;
+// this is the class for p tag in words for desktop
+}
+.lead1{
+  color: $tq;
+  font-size: $font-size2;
+  display: flex;
+  justify-content: center;
+  font-family: $font-stack;
+}
+//  this is the p tag for footer  in desktop mode
+// lead is being use for pargafar, color is whit for text font size is 25 font s helvetica
+.nav-link{
+  color: $tq;
+  text-shadow: $font-size5 $font-size5 $font-size5 $white;
+  margin-left: auto;
+ font-size: $font-size4;
+}
+// nav-link is my link to home bio and artist in desktop
+#img1{
+  margin: auto;
+  width: $img3;
+  height: $img3;
+}
+  // this is be  used for thew links to Facebook,Twitter,and Soundcloud 81 all the way down to 99
+  .fa-facebook {
+  background: $facebook;
+  color: $white;
+  height: $font-size2;
+  width: $font-size2;
+}
+
+.fa-twitter {
+  background:$twitter;
+  color: $white;
+  height: $font-size2;
+  width: $font-size2;
+}
+.fa-soundcloud{
+  background: $soundcloud;
+  color: $white;
+  height: $font-size2;
+  width: $font-size2;
+}
+.imgs1{
+  margin:auto;
+  height:450px;
+  width: 400px;
+}
+.imgs2{
+  margin:auto;
+  height:450px;
+  width: auto;
+}
+.imgs3{
+margin:auto;
+height:450px;
+width: auto;
+}
+.vid1{
+  height: 315px;
+  width: 450px;
+}
+  // this is be  used for thew links to Facebook,Twitter,and Soundcloud in bio
+// "tablet" this is for tablet divecs when you need to view any of this on a tablet
+@media (min-width: 476px)and (max-width:775px)
+{
+body{
+  background-color:$jj;
+}
+// "body" this is being use for background-color of "tardidsblue"
+.fun{
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  color: $tq;
+  font-size: $font-size3;
+  font-family: $font-stack1;
+// this is being used the h1 so that it can be used for all of this
+}
+.lead{
+  margin: auto;
+  color: $tq;
+  font-size: $font-size4;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: $font-stack;
+}
+// "fun " is the id i am use for my h1. The felx is being use so i can center tbe header color is white for the text i did showder and made that black and the font i am using is helvetica.
+.lead1{
+  color: $tq;
+  display: flex;
+  justify-content: center;
+}
+// this is what being used for the footer
+.nav-link{
+  color: $tq;
+  text-shadow: $font-size5 $font-size5 $font-size5 $white;
+  margin-left: auto;
+  font-size: $font-size4;
+}
+// nav-link is my link to home bio and artist
+#img1{
+  margin: auto;
+  width: $img2;
+  height: $img2;
+}
+// this is what being used for the img that was givin in clas
+// this is be  used for thew links to Facebook,Twitter,and Soundcloud 147 all the way down to 166
+.fa-facebook {
+background: $facebook;
+color: $white;
+height: $font-size2;
+width: $font-size2;
+}
+
+.fa-twitter {
+background:$twitter;
+color: $white;
+height: $font-size2;
+width: $font-size2;
+}
+.fa-soundcloud{
+background: $soundcloud;
+color: $white;
+height: $font-size2;
+width: $font-size2;
+}
+.imgs1{
+  margin:auto;
+  height:350px;
+  width: 350px;
+}
+.imgs2{
+  margin:auto;
+  height:350px;
+  width: auto;
+}
+.imgs3{
+margin:auto;
+height:350px;
+width: auto;
+}
+.vid1{
+  height: 315px;
+  width: 450px;
+}
+}
+// tag1 is being used for links for Facebook,Soundcloud,and Twitter
+
+// "Mobile" this is for when you are view someting on a mobile device.
+@media  (min-width: 300px) and (max-width: 475px)
+{
+body{
+  background-color: $jj;
+
+}
+.fun{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: $tq;
+  font-size: $font-size6;
+  font-family: $font-stack1;
+}
+// That is what is being used for h1 as a class. flex is being uesd for makeing it center. coloris being used yellow, font size 20 and font family
+.lead{
+  margin:auto;
+  color: $tq;
+  font-size: $font-size4;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: $font-stack;
+}
+// lead is being used for the praagraph in the mine body
+.lead1{
+  color: $tq;
+  display: flex;
+  justify-content: center;
+}
+// lead one is being used for the footer
+.nav-link{
+  color:$tq;
+  text-shadow: $font-size5 $font-size5 $font-size5 $white;
+  margin-left: auto;
+  font-size: $font-size4;
+}
+// ths is being uesd for home, bio and Artists
+#img1{
+  margin: auto;
+  width: $img1;
+  height: $img1;
+}
+// this is being used for the img that was givein by class
+// this is be  used for thew links to Facebook,Twitter,and Soundcloud 215 all the way down to 243
+.fa-facebook {
+background: $facebook;
+color: $white;
+height: $font-size2;
+width: $font-size2;
+}
+
+.fa-twitter {
+background:$twitter;
+color: $white;
+height: $font-size2;
+width: $font-size2;
+
+}
+.fa-soundcloud{
+background: $soundcloud;
+color: $white;
+height: $font-size2;
+width: $font-size2;
+}
+.imgs1{
+  margin:auto;
+  height:250px;
+  width: 250px;
+}
+.imgs2{
+  margin:auto;
+  height:250px;
+  width: auto;
+}
+.imgs3{
+margin:auto;
+height:250px;
+width: auto;
+}
+.vid1{
+  height: 250px;
+  width: auto;
+}
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: #003B6F; }
+
+h1 {
+  color: #fff;
+  font-size: 25%; }
+
+p {
+  color: #fff;
+  font-size: 15%; }
+
+/*# sourceMappingURL=style.csssass.map */
